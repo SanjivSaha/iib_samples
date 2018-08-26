@@ -1,0 +1,48 @@
+Summary of selections: WSDL files generation
+
+The selected message set:
+/calculator_wsp/calculator_ws
+
+The generated WSDL files will go into:
+/calculator_wsp
+
+The version of WSDL to be generated: 1.1
+The version of SOAP to be generated: 1.1
+
+The selected style for WSDL generation: document
+The WSDL Namespace: http://tempuri.org/calculator_ws
+
+The following operations will be created:
+Addition (Request-Response)
+
+The following bindings are selected:
+SOAP over http.
+
+The following WSDL files will be generated:
+/calculator_wsp/calculator_wsService.wsdl
+
+
+Creating new WSDL Service file '\calculator_wsp\calculator_wsService.wsdl'
+Setting wsdl definition name for 'calculator_wsService.wsdl': calculator_ws
+Setting wsdl definition targetNamespace for 'calculator_wsService.wsdl': http://tempuri.org/calculator_ws
+Adding namespace: xmlns for 'calculator_wsService.wsdl':soap=http://schemas.xmlsoap.org/wsdl/soap/
+Adding namespace: xmlns for 'calculator_wsService.wsdl':xsd=http://www.w3.org/2001/XMLSchema
+Adding namespace: xmlns for 'calculator_wsService.wsdl':wsdl=http://schemas.xmlsoap.org/wsdl/
+Creating new WSDL Interface file '\calculator_wsp\calculator_wsService.wsdl'
+Creating portType for WSDL Interface: calculator_wsPortType
+Creating portType operation 'Addition'
+Creating message 'Addition_in'
+Creating message 'Addition_out'
+Creating message 'Addition_fault1'
+Creating SOAP over HTTP binding 'calculator_wsSOAP_HTTP_Binding'
+Creating binding operation 'Addition' for binding 'calculator_wsSOAP_HTTP_Binding'
+Creating SOAP over HTTP service 'calculator_wsSOAP_HTTP_Service'
+Creating port 'calculator_wsSOAP_HTTP_Port' for service 'calculator_wsSOAP_HTTP_Service'
+
+Elapsed time processing this WSDL definition: 1.535187539941E9 seconds
+Number of warnings for this WSDL definition: 0
+
+
+Number of files processed: 1
+
+

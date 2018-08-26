@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <xsd:element name="intA" type="xsd:int"/>
+  <xsd:element name="intB" type="xsd:int"/>
+  <xsd:element name="addC" type="xsd:int"/>
+  <xsd:element name="fCode" type="xsd:int"/>
+  <xsd:element name="fMessage" type="xsd:string"/>
+</xsd:schema>

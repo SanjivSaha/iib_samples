@@ -1,0 +1,18 @@
+
+
+Importing file: C:\Users\SANJIV\IBM\IIBT10\workspace\calculator_wsp\calculator_wsService.wsdl
+
+Copying source WSDL calculator_wsService.wsdl to calculator_wsService.wsdl.
+The WSDL import will proceed with bindings calculator_wsSOAP_HTTP_Binding.
+Creating wsdl schema document for file:///C:/Users/SANJIV/IBM/IIBT10/workspace/calculator_wsp/calculator_wsService.wsdl.
+Parsing wsdl binding {http://tempuri.org/calculator_ws}calculator_wsSOAP_HTTP_Binding.
+Parsing wsdl binding input Addition.
+Parsing wsdl binding output Addition.
+Parsing wsdl binding fault Addition_Fault.
+Processing doc style for operation Addition.
+Populating WSDL schema calculator_wsService.xsd.
+Creating file calculator_wsService.xsd in the workspace.
+Creating file calculator_wsService_InlineSchema2.xsd in the workspace.
+
+Elapsed time processing this message definition file: 1.036 seconds
+Number of warnings for this message definition file: 0

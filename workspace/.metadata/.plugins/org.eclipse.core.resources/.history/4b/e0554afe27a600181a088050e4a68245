@@ -1,0 +1,9 @@
+
+
+Importing file: C:\Users\SANJIV\IBM\IIBT10\workspace\EmployeeService\EmployeeService.wsdl
+
+The WSDL import will proceed with bindings EmployeeServiceHttpBinding.
+Creating wsdl schema document for platform:/resource/EmployeeService/EmployeeService.wsdl.
+Parsing wsdl binding {http://EmployeeService}EmployeeServiceHttpBinding.
+Parsing wsdl binding input getEmployeeDetails.
+Parsing wsdl binding output getEmployeeDetails.

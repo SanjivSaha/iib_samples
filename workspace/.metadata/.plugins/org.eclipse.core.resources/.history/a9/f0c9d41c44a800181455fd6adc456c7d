@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <xsd:element name="intA" type="xsd:int"/>
+  <xsd:element name="intB" type="xsd:int"/>
+  <xsd:element name="addC" type="xsd:int"/>
+  <xsd:element name="fCode" type="xsd:int"/>
+  <xsd:element name="fMessage" type="xsd:string"/>
+  <xsd:complexType name="ReqAdd">
+    <xsd:sequence>
+      <xsd:element ref="intA"/>
+      <xsd:element ref="intB"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="ResAdd">
+    <xsd:sequence>
+      <xsd:element ref="addC"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="ErrorMessage">
+    <xsd:sequence>
+      <xsd:element ref="fCode"/>
+      <xsd:element ref="fMessage"/>
+    </xsd:sequence>
+  </xsd:complexType>
+</xsd:schema>

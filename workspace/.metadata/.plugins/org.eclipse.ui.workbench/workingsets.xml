@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workingSetManager>
+<workingSet editPageId="com.ibm.etools.mft.navigator.BrokerWorkingSet.AppLib" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1534954090149_1" label="[EmployeeService]" name="[EmployeeService]">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/EmployeeService" type="4"/>
+</workingSet>
+<workingSet editPageId="com.ibm.etools.mft.navigator.BrokerWorkingSet.AppLib" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1535212406978_5" label="[AdditionApp]" name="[AdditionApp]">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/AdditionApp" type="4"/>
+</workingSet>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1534953481880_0" label="Window Working Set" name="Aggregate for window 1534953481880"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1534959602698_2" label="Window Working Set" name="Aggregate for window 1534959602698"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1534962106111_3" label="Window Working Set" name="Aggregate for window 1534962106111"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1535184572492_4" label="Window Working Set" name="Aggregate for window 1535184572492"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1535269188366_6" label="Window Working Set" name="Aggregate for window 1535269188366"/>
+</workingSetManager>

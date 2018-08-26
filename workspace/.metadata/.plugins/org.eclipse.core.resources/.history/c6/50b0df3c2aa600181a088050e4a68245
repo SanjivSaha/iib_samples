@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><mappingRoot xmlns="http://www.ibm.com/2008/ccl/Mapping" domainID="com.ibm.msl.mapping.xml" domainIDExtension="mb" mainMap="true" targetNamespace="gen" version="8.0.5.0" xmlns:map="gen">
+    <input path="/Employee.xsd"/>
+    <output path="/Employee.xsd"/>
+    <generation engine="xquery"/>
+    <mappingDeclaration name="getEmployeeDetails_Request_Response_Mapping">
+        <input namespace="http://www.example.org/Employee" path="mb:msg(EmployeeRequest,assembly,XMLNSC,Properties)" var="ComIbmMessageAssembly_EmployeeRequest"/>
+        <output namespace="http://www.example.org/Employee" path="mb:msg(EmployeeResponse,assembly,XMLNSC,Properties)" var="ComIbmMessageAssembly_EmployeeResponse"/>
+        <move>
+            <input path="$ComIbmMessageAssembly_EmployeeRequest/Properties"/>
+            <output path="$ComIbmMessageAssembly_EmployeeResponse/Properties"/>
+        </move>
+    </mappingDeclaration>
+</mappingRoot>

@@ -1,0 +1,8 @@
+
+
+Importing file: C:\Users\SANJIV\IBM\IIBT10\workspace\calculator_wsp\calculator_wsService.wsdl
+
+Copying source WSDL calculator_wsService.wsdl to calculator_wsService.wsdl.
+The WSDL import will proceed with bindings calculator_wsSOAP_HTTP_Binding.
+Creating wsdl schema document for file:///C:/Users/SANJIV/IBM/IIBT10/workspace/calculator_wsp/calculator_wsService.wsdl.
+Parsing wsdl binding {http://tempuri.org/calculator_ws}calculator_wsSOAP_HTTP_Binding.
